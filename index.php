@@ -16,7 +16,6 @@
         $cmd=filter_input( INPUT_POST, 'cmd', FILTER_SANITIZE_STRING );
         $line=filter_input( INPUT_POST, 'line', FILTER_SANITIZE_NUMBER_INT );
 
-
         if( $cmd ){
             switch( $cmd ){
                 case 'poll':
